@@ -1,0 +1,24 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.5.0;
+
+//Give two examples of require statement trying to verify an hash.
+
+contract Ifure4{
+
+function Alpha(string memory _name) public pure returns (string memory){
+
+require(keccak256(abi.encodePacked(_name)) ==keccak256(abi.encodePacked("Ifure")));
+
+}
+
+}
+
+contract Faith{
+function Stargirl(string memory _name) public pure  returns (string memory){
+require(keccak256(abi.encodePacked(_name)) ==keccak256(abi.encodePacked ("Savior")));
+
+
+} 
+
+
+}
