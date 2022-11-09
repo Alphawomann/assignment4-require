@@ -1,0 +1,32 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.5.0;
+
+contract counter{
+    uint public count;
+
+    function increment() public{
+   count +=2; 
+
+    }
+}
+
+ function decrement() public{
+
+    count -=1;
+} 
+
+
+//Classwork: Create a function that will decrese a particular number by 1000
+
+contract classwork{
+
+uint public count = 1000;
+
+function increment() public{
+    count +=1;
+}
+    function decrement() public{
+        count -=1;
+    
+}
+}
